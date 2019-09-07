@@ -9,9 +9,12 @@ Udacity Blockchain Developer Nanodegree project3 (Daap supplychain)
 - Truffle version number
 - web3 version number
 
-
+### installation
 `npm install --save truffle-hdwallet-provider`
 
+`npm install lite-server --save-dev`
+
+### compile and testing
 `truffle develop`
 
 `truffle> compile`
