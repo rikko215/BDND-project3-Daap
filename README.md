@@ -1,5 +1,19 @@
-# BDN-project3-Daap
-Udacity Blockchain Developer Nanodegree project3 (Daap supplychain)
+# Blockchain Developer Nanodegree project3 (Daap supplychain)
+This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
+
+## Project write-up
+
+### Activity
+![Activity](images/Activity.png)
+
+### Sequence
+![Activity](images/Sequence.png)
+
+### State
+![Activity](images/State.png)
+
+### Classes (Data Model)
+![Activity](images/Classes.png)
 
 ## Libraries
 `truffle-hdwallet-provider` was used in order to sign transactions for addresses derived from a 12-word mnemonic.
@@ -10,7 +24,6 @@ To `truffle-hdwallet-provider`, run the following command:
 `npm install lite-server --save-dev`
 
 ## Program version numbers
-
 
 ### node version
 v10.15.3
@@ -43,3 +56,8 @@ v1.2.1
 
 ### Deploy smart contract on a public test network
 `truffle migrate --network rinkeby --reset`
+
+### Launch front-end server
+In a separate terminal window, launch the DApp:
+
+`npm run dev`
