@@ -1,6 +1,20 @@
 # BDN-project3-Daap
 Udacity Blockchain Developer Nanodegree project3 (Daap supplychain)
 
+## Project write-up
+
+### Activity
+![Activity](images/Activity.png)
+
+### Sequence
+![Activity](images/Sequence.png)
+
+### State
+![Activity](images/State.png)
+
+### Classes (Data Model)
+![Activity](images/Classes.png)
+
 ## Libraries
 `truffle-hdwallet-provider` was used in order to sign transactions for addresses derived from a 12-word mnemonic.
 To `truffle-hdwallet-provider`, run the following command:
@@ -10,7 +24,6 @@ To `truffle-hdwallet-provider`, run the following command:
 `npm install lite-server --save-dev`
 
 ## Program version numbers
-
 
 ### node version
 v10.15.3
@@ -43,3 +56,8 @@ v1.2.1
 
 ### Deploy smart contract on a public test network
 `truffle migrate --network rinkeby --reset`
+
+### Launch front-end server
+In a separate terminal window, launch the DApp:
+
+`npm run dev`
