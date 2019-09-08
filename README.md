@@ -1,18 +1,25 @@
 # BDN-project3-Daap
 Udacity Blockchain Developer Nanodegree project3 (Daap supplychain)
-- If IPFS is used, include how IPFS is used in this project.
-- Program version numbers (This information will help your reviewer troubleshoot your project if any issues arise):
-- node version number
-- Truffle version number
-- web3 version number
 
-## Libraries
-truffle-hdwallet-provider was used in order to sign transactions for addresses derived from a 12-word mnemonic.
-To truffle-hdwallet-provider, run the following command:
+### Libraries
+`truffle-hdwallet-provider` was used in order to sign transactions for addresses derived from a 12-word mnemonic.
+To `truffle-hdwallet-provider`, run the following command:
 
 `npm install --save truffle-hdwallet-provider`
 
 `npm install lite-server --save-dev`
+
+### Program version numbers
+
+
+# node version
+
+
+# Truffle version
+
+
+# web3 version
+
 
 ## Transaction ID and contract address
 | Files | Transaction ID | Contract address |
@@ -25,7 +32,7 @@ To truffle-hdwallet-provider, run the following command:
 | SupplyChain | 0x53aeacf2f4c5c36cc3323a8910d45fb4989ee16a9bde3fe5fc109300f5d7a031 | 0x2f8fb38f8a908a187bd03ac6d58b93d7df57c373 |
 
 
-## How to compile and testing
+### How to compile and testing
 `truffle develop`
 
 `truffle> compile`
