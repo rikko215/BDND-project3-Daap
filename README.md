@@ -1,7 +1,7 @@
 # BDN-project3-Daap
 Udacity Blockchain Developer Nanodegree project3 (Daap supplychain)
 
-### Libraries
+## Libraries
 `truffle-hdwallet-provider` was used in order to sign transactions for addresses derived from a 12-word mnemonic.
 To `truffle-hdwallet-provider`, run the following command:
 
@@ -9,17 +9,17 @@ To `truffle-hdwallet-provider`, run the following command:
 
 `npm install lite-server --save-dev`
 
-### Program version numbers
+## Program version numbers
 
 
-# node version
+### node version
+v10.15.3
 
+### Truffle version
+v4.1.14
 
-# Truffle version
-
-
-# web3 version
-
+### web3 version
+v1.2.1
 
 ## Transaction ID and contract address
 | Files | Transaction ID | Contract address |
@@ -32,7 +32,7 @@ To `truffle-hdwallet-provider`, run the following command:
 | SupplyChain | 0x53aeacf2f4c5c36cc3323a8910d45fb4989ee16a9bde3fe5fc109300f5d7a031 | 0x2f8fb38f8a908a187bd03ac6d58b93d7df57c373 |
 
 
-### How to compile and testing
+## How to compile and testing
 `truffle develop`
 
 `truffle> compile`
